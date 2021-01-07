@@ -15,4 +15,6 @@ Description: Adds additional functionality to 'sf' objects in the 'sf' package
         buffers to work on data with geographic (longitude/latitude) coordinates.
 License: GPL (>= 2)
 Imports: 
-    sf
+    sf,
+    lwgeom
+RoxygenNote: 7.1.1
