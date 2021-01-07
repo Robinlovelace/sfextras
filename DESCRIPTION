@@ -1,0 +1,18 @@
+Package: sfextras
+Type: Package
+Title: Extra Functions for Simple Features
+Version: 0.1.0
+Authors@R: c(
+    person("Robin", "Lovelace", email = "rob00x@gmail.com", role = c("aut", "cre"),
+      comment = c(ORCID = "0000-0001-5679-6536"))
+      )
+Date: 2021-01-07
+Maintainer: Robin Lovelace <rob00x@gmail.com>
+Description: Adds additional functionality to 'sf' objects in the 'sf' package
+        <https://cran.r-project.org/package=sf>.
+        The package provides functionality to run geographic
+        functions on projected data, enabling operations such as
+        buffers to work on data with geographic (longitude/latitude) coordinates.
+License: GPL (>= 2)
+Imports: 
+    sf
